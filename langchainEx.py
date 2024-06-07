@@ -4,7 +4,7 @@ from langchain_openai import OpenAIEmbeddings
 from langchain_text_splitters import CharacterTextSplitter
 import os
 
-OPENAI_API_KEY ='sk-proj-T1z5F3JlDHil0pe1sTGgT3BlbkFJZh1QgxJwIqnMHPAW4tpQ'
+OPENAI_API_KEY ='env.openapikey'
 
 loader = TextLoader("./temporary.txt")
 documents = loader.load()
